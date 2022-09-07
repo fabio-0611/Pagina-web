@@ -5,8 +5,8 @@
 
 # <p align="center">Descrição</p>
 <p align="justify">
-Projeto criado para divugação de um trabalho autônomo que é realizado de porta em porta <b><i>Ramo de Cama-Mesa e Banho</b></i>, houve à necessidade da criação de uma aplicação web que fica disponível em uma plataforma gratuita, de acordo com as necessidades do cliente, então para a necessidade do cliente foi criado um site com algumas páginas em HTML5/CSS3/Javascript, tanto a parte front-end como a parte back-end.<p align="justify">
-Toda parte dinâmica do projeto web com a qual um usuário ira se  interagir foi criada a parte de front-end que está mais voltado a tudo que diz respeito ao conteúdo. Utilizamos o back-end para operar todas as funcionalidades operando de maneira efetiva e cumprindo seus objetivos do projeto criado.<br>
+Projeto criado para divugação de um trabalho autônomo que é realizado de porta em porta <b><i>Ramo de Cama-Mesa e Banho</b></i>, houve à necessidade da criação de uma aplicação web que fica disponível em uma plataforma gratuita, de acordo com as necessidades do cliente, então para a necessidade do cliente foi criado um site com algumas páginas em HTML5/CSS3 e a utilização de um framework bootstrap.<p align="justify">
+Foi desenvolvido todo o projeto com o desenvolvimento front-end, visando em toda parte da programação relativa à interface da aplicação, podendo ter uma aplicação gráfica do projeto. Ou seja, com a qual o usuário irá interagir diretamente,nesse caso um sites.<br>
 <p align="justify">
 Utlizando o HTML 5 que é uma linguagem de marcação de Hipertexto (HyperText Markup Language) que trabalha com as bases do HTML clássico, mas possui tags adicionais que permitiu criar um sites mais modernos e mais compatíveis com as tecnologias digitais atuais.<br>
 E com o CSS, foi possível desenvolver um site extremamente elegante, bem otimizado e com interação.
@@ -14,6 +14,7 @@ E com o CSS, foi possível desenvolver um site extremamente elegante, bem otimiz
 O Bootstrap é uma ferramenta gratuita para desenvolvimento HTML, CSS e JS. Crie protótipos rápidamente ou aplicações completas com nossas variáveis e mixins Sass, sistemas de grid responsivo, componentes pré-construídos e poderosos plugins com jQuery. Pegando toda a documentação através do link para direcionar no projeto.
 <p align="justify">
 <b>O projeto elaborado serviu como divulgação para o cliente, mas também como portfólio do serviço requisitado.</b>
+ <b><i>Criado um Web site com algumas páginas </i></b>
 </p>
  
  
@@ -53,7 +54,6 @@ O Bootstrap é uma ferramenta gratuita para desenvolvimento HTML, CSS e JS. Crie
  
 ## 📁 Acesso ao projeto
 
-- É possível baixar o projeto no próprio github ou navegar em uma plataforma web onde o site está hospedado em uma plataforma gratuíta.
 
 ## 🛠️ Abrir e rodar o projeto
 ## Links
@@ -64,7 +64,7 @@ O Bootstrap é uma ferramenta gratuita para desenvolvimento HTML, CSS e JS. Crie
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ZxQ5EWDk8bYqaUQpFeGFj2Phg8bSK5iLMEwcJd-Egw46QDwOl8_BuNw6_mBhyjl5BO4&usqp=CAU" width="50px" border="5px"> </a>
 </P>
 
-- É possível baixar o projeto no próprio github ou através do site onde o projeto está hospedado em uma plataforma gratuíta.
+- É possível baixar o projeto no próprio github ou navegar através do site que está hospedado em uma plataforma gratuíta.
 Basta clicar nas imagens acima que será direcionado ao conteúdo.
 
 
