@@ -1,0 +1,382 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../Imagens/pai\ e\ mãe.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-clip: padding-box;
+    background-size: 15rem;
+    background-blend-mode: multiply;
+}
+
+a{
+    text-decoration: none;
+}
+nav
+.h{
+    display:flex;
+    color:white;
+    padding:10px 10px;
+    margin: 0 auto;
+    font-family: "Chiller";
+    font-size :40px;
+    justify-content:center;
+}
+nav{
+    display: flex;
+    margin:0 auto;
+    background: black;
+    padding: 10px;
+    justify-content:space-around;
+    align-items: center;
+    text-decoration: none;
+    border: 10px outset rgb(242, 211, 211);
+    width: 100%;
+   
+  
+}
+        .nav-enlace{
+            display: flex;
+            width: 300px;
+            background: rgb(72, 64, 64);
+            color: white;
+            padding: 10px 30px;
+            border-radius: 6px;
+            border: 10px outset rgb(226, 13, 13);
+            text-decoration: none;
+            align-content: center;
+            justify-content: space-around;
+        }
+        .nav-enlace:hover{
+            background:rgb(240, 105, 105);
+            text-decoration: none;
+            border: 10px outset rgb(245, 54, 54);
+            color: white;
+            transition: 0.8s linear;
+            font-size: 150%;
+            border-radius:5%;
+        }
+
+.banner{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        border-radius: 6px;
+        background-image: linear-gradient(rgba(207, 250, 252, 0.726), rgba(134, 151, 153, 0.986));
+
+}
+#header{
+    padding: 20px;
+    text-align: center;
+    background-image: linear-gradient(rgba(246, 198, 238, 0.822), rgba(255, 250, 254, 0.89));
+}
+
+    .col-sm-4 img{
+        border-radius:20px;
+        width: 90%;
+        align-items:center;
+    }
+    
+
+#header1{
+    padding: 30px;
+    text-align: center;
+    background-image: linear-gradient(rgba(252, 164, 230, 0.952), rgba(194, 173, 187, 0.89));
+}
+
+/*Banner header*/
+.figure{
+    display:flex;  
+    max-width: 720px; 
+    margin:0 auto;
+    border-radius: 20px;
+    background: transparent;
+}
+    .figure video{
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: inset 0 0 1.3em gold, 0 0 2em red;
+    }
+video {
+    
+    width: 100%;
+    height: 0 auto;
+    align-items: center;
+    
+}
+/*Banner header*/
+.card-text{
+    font-weight:bold;
+    text-align: justify;
+    mix-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    margin: auto 0;
+}
+.card-title{
+    padding: 20px;
+    text-shadow: 20px 30px 4px; 
+}
+.card-body{
+    box-shadow: inset 0 0 1.3em gold, 0 0 2em red;
+}
+.card-body,
+.btn{
+    align-items: center;
+    justify-items: center;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn:hover{
+    box-shadow: inset 0 0 1.3em rgb(32, 27, 6), 0 0 2em rgb(0, 255, 213);
+    border-radius: 10px;
+    font-size: 120%;
+    transition: 1s linear;
+}
+
+.footer{
+    align-items: center;
+    display: grid;
+    background-color: black;
+    color: white;
+    padding: 30px 30px;
+    text-align: justify;
+    justify-content: center;
+    justify-items: center;
+}
+    footer a,
+    ul
+    {
+        list-style: none;
+        text-decoration: none;
+        color: rgb(163, 128, 128);
+    }
+        
+
+        footer a:hover{
+            text-decoration: none;
+            font-size: 120%;
+            color: red;
+            transition: 1s linear;
+        }
+
+        footer,
+        .col-lg-4,
+        p{
+            text-align:justify;
+            font-size: 1em;
+        }
+
+.img-col img{
+    padding-bottom:5px;
+    width: 190px;
+    height: 150px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+}
+    .img-col a:hover{
+        transition: 0.8s linear;
+        font-size:-100%;
+        opacity:0.7
+    }
+/* Página de descrições*/
+ 
+.table{ 
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    padding:20px;
+    background-image:linear-gradient(rgba(243, 233, 235, 0.918), rgba(175, 231, 238, 0.89));
+    font-family: 'Open Sans', 'sans-serif';
+	font-size: 1em;
+	color: black;
+    text-decoration: none;
+    border-radius: 60px ;
+    border: 20px solid rgba(51, 4, 105, 0.781);
+}
+
+    .table:hover{
+        border-radius: 10px;
+        background:rgb(121, 86, 245);
+        text-decoration: none;
+        border: 20px solid rgba(51, 4, 105, 0.781);
+        color: white;
+        border-radius: 60px;   
+    }
+
+    .footer1{
+        display: grid;
+        background-color: black;
+        color: white;
+        padding: 30px;
+        justify-content: center;
+        justify-items: center;   
+    }
+    
+    .grid-table{
+        max-width: 900px;
+        max-height: 900px;
+        font-family: 'Open Sans', 'sans-serif';
+        color: #333;
+        padding: 20px;
+        border: 2px outset solid #A4A4A4;
+        border-radius: 6px;
+        background-image: linear-gradient(rgba(207, 250, 252, 0.726), rgba(134, 151, 153, 0.986));
+    }
+
+    /* Página quesomos */
+    .img-fluid img {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        width:300px;
+        height: 200px;
+        border-radius: 20px;
+}
+         
+.lead{
+    display: flex;
+    padding: top 1rem;;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    text-align: justify;
+    align-items:center;
+}
+    .grid {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        font-family: 'Open Sans', 'sans-serif';
+        color: #333;
+        padding: 20px;
+        border: 2px outset solid #A4A4A4;
+        border-radius: 6px;
+        background-image: linear-gradient(rgba(207, 250, 252, 0.726), rgba(134, 151, 153, 0.986));
+    }
+
+    .grid a,
+    ul
+    {
+        font-size: 1.3rem;
+        list-style: none;
+        text-decoration: none;
+        color: rgb(223, 99, 99);
+        transition: 0.8s linear;
+
+    }
+    .grid a:hover
+    {   font-size: 120%;
+        opacity: 0.8;
+        list-style: none;
+        text-decoration: none;
+        color: rgb(238, 27, 27);
+    }
+
+.copy-right
+{
+    padding-top: 1em;
+    transition: 0.8s linear;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(233, 233, 233);
+}
+    .copy-right a{
+        color: rgb(101, 238, 174);
+    }
+    .copy-right a:hover{
+        transition: 0.8s linear;
+        font-size: 120%;
+        cursor: pointer;
+        text-decoration: none;
+        list-style: none;
+        color: rgb(219, 0, 0);
+    }
+
+        
+     /***Responsivive*/
+    
+    @media (max-width:650px){
+    nav
+        {
+            font-size: 1em;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            padding:auto;
+        }
+        .nav-enlace{
+            width: auto;
+            font-size: 1em;
+        }
+        .nav-enlace:hover{
+            font-size: 90%;
+        }
+       .container-md h2, h2{
+            display: flex;
+            flex-direction: column;
+            font-weight: bold;
+            font-size: 1.5em;
+            align-items: center;
+            align-items:center;
+            padding:auto;
+        }
+       .col-md-8,
+       .col-md-4,
+       .grid,
+       .lead{
+        padding: 10px;
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        font-size: 0.8rem;
+       }
+        .col-md-4,
+        .col-md-8
+         img{
+            padding: 10px;
+            align-items:center;
+            text-align:center;
+        }
+        .copy-right{
+            font-size: 0.8rem;
+            flex-direction: row;
+            align-items: center;
+        }
+        .grid-table,
+        .table{
+            width: 100%;
+            justify-content: center;
+            justify-items: center;
+            text-align: center;
+            font-size: 1.2rem;
+            padding: 10px;
+            flex-direction:column;
+            font-size: 0.8rem;
+        }
+            .table,
+            .table-dark{
+                text-align: center;
+                display:grid;
+                justify-items: center;
+                font-size: 0.7rem;
+                font-weight: bold;
+                border-radius: 5px;
+                align-content: center;
+            } 
+   
+    }
